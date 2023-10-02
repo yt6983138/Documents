@@ -5,6 +5,7 @@
 cmd> adb shell
 sh> su
 sh# cp /data/data/com.PigeonGames.Phigros/shared_prefs/com.PigeonGames.Phigros.v2.playerprefs.xml /storage/emulated/0/
+# 注意: 如果 com.PigeonGames.Phigros 不行的話試試 com.PigeonGames.PhigrosGlobal
 sh# exit
 sh> exit
 cmd> adb pull /storage/emulated/0/com.PigeonGames.Phigros.v2.playerprefs.xml
@@ -30,7 +31,7 @@ cmd> adb backup com.PigeonGames.PhigrosGlobal backup.ab
 cmd> adb shell
 sh> su
 sh# cp /data/data/com.PigeonGames.Phigros/shared_prefs/com.PigeonGames.Phigros.v2.playerprefs.xml /storage/emulated/0/
-Note: If com.PigeonGames.Phigros doesn't work try com.PigeonGames.PhigrosGlobal instead
+# Note: If com.PigeonGames.Phigros doesn't work try com.PigeonGames.PhigrosGlobal instead
 sh# exit
 sh> exit
 cmd> adb pull /storage/emulated/0/com.PigeonGames.Phigros.v2.playerprefs.xml
